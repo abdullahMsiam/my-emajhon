@@ -39,3 +39,16 @@
 .btn-cart:hover {
     background-color: rgb(243, 213, 174);
 }
+
+
+@media screen and (max-width: 576px) {
+    .product {
+        width: 200px;
+        height: 400px;
+    }
+
+    .product img {
+        width: 180px;
+        height: 180px;
+    }
+}
