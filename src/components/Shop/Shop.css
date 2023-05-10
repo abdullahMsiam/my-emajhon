@@ -9,3 +9,16 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
+
+@media screen and (max-width: 576px) {
+    .shop-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .products-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+}
