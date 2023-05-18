@@ -1,0 +1,31 @@
+.review-item {
+    width: 50%;
+    margin: 20px auto;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+
+}
+
+.review-item img {
+    width: 15%;
+    border-radius: 7px;
+}
+
+.review-item p {
+    margin: 0 15px;
+}
+
+.review-details {
+    flex-grow: 1;
+}
+
+.delete-btn {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: rgba(220, 20, 60, 0.24);
+    color: crimson;
+}
