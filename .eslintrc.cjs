@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 module.exports = {
   env: { browser: true, es2020: true },
   extends: [
