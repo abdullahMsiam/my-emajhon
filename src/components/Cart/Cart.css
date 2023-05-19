@@ -11,3 +11,13 @@
 .cart p {
     font-size: 17px;
 }
+
+.cart button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin: 10px auto;
+    color: white;
+    background-color: rgba(220, 20, 20, 0.929);
+}
